@@ -1,72 +1,132 @@
-# Petal House
-### Site demonstrativo acadêmico — Floricultura
+# Petal House 🌷
+
+### Site demonstrativo de uma floricultura — Projeto Acadêmico
 
 ## Sobre o projeto
 
-A **Petal House** é um site demonstrativo desenvolvido com o objetivo de apresentar uma floricultura fictícia, especializada na venda de flores, plantas e vasos.
+A **Petal House** é um projeto acadêmico desenvolvido em dupla, com a proposta de criar um site demonstrativo para uma floricultura fictícia especializada na venda de flores, plantas ornamentais, vasos e acessórios.
 
-O projeto foi pensado para oferecer uma experiência de navegação agradável, com um visual delicado e elegante, valorizando a identidade da marca e facilitando a visualização dos produtos.
-Por meio do site, o usuário pode conhecer a floricultura, explorar os catálogos, visualizar detalhes dos produtos, adicionar itens à sacola e simular o processo de compra.
+O projeto foi desenvolvido com o objetivo de aplicar conhecimentos de desenvolvimento web, explorando a criação de interfaces, organização de páginas, identidade visual, usabilidade e funcionalidades interativas.
 
+A proposta é simular a experiência de uma loja virtual, permitindo que os usuários naveguem pelos catálogos, visualizem detalhes dos produtos, adicionem itens ao carrinho e simulem a finalização de uma compra.
 
-## Funcionalidades
+## Objetivos
 
-- Página inicial com apresentação da marca.
-- Catálogo de flores e plantas.
-- Área de detalhes dos produtos.
-- Catálogo de vasos e acessórios.
-- Páginas de login e cadastro.
-- Carrinho de compras com adição e remoção de produtos.
-- Simulação de finalização da compra.
-- Página sobre a floricultura.
-- Página de contato.
-- Armazenamento de informações no navegador por meio do LocalStorage.
-
+- Aplicar conhecimentos de HTML, CSS e JavaScript.
+- Desenvolver páginas web com identidade visual padronizada.
+- Organizar produtos em diferentes categorias.
+- Implementar funcionalidades interativas.
+- Trabalhar conceitos de UX/UI e usabilidade.
+- Simular a navegação e o processo de compra de uma loja virtual.
 
 ## Tecnologias utilizadas
 
 - **HTML5:** estruturação das páginas.
-- **CSS3:** estilização, cores, organização dos elementos e responsividade.
-- **JavaScript:** funcionalidades, interações, carrinho de compras e armazenamento local.
-- **Bootstrap:** recursos de interface utilizados no desenvolvimento, quando aplicável.
+- **CSS3:** estilização, identidade visual e responsividade.
+- **JavaScript:** interatividade, manipulação dos produtos e gerenciamento do carrinho.
+- **LocalStorage:** armazenamento local dos produtos adicionados ao carrinho.
 
+## Funcionalidades
 
-## Como executar
+- Página inicial com apresentação da marca.
+- Catálogo de flores.
+- Catálogo de plantas.
+- Catálogo de vasos e acessórios.
+- Página de detalhes dos produtos.
+- Login e cadastro demonstrativos.
+- Carrinho de compras com adição e remoção de produtos.
+- Alteração da quantidade de produtos.
+- Cálculo automático de subtotais e total da compra.
+- Ordenação de produtos por nome e preço.
+- Simulação de finalização da compra.
+- Página institucional sobre a floricultura.
+- Página de contato.
+- Menu de navegação adaptado para telas menores.
 
-1. Extraia a pasta **Petal House** do arquivo ZIP.
-2. Abra a pasta do projeto no Visual Studio Code.
-3. Acesse a pasta `html`.
+## Identidade visual
+
+A identidade visual foi desenvolvida para transmitir delicadeza, elegância e conexão com a natureza.
+
+A paleta de cores principal é composta por:
+
+| Cor | Código |
+|---|---|
+| Verde-escuro | `#0A3323` |
+| Rosa-escuro | `#933B5B` |
+| Rosa | `#B5728A` |
+| Roxo | `#976D90` |
+
+O projeto também utiliza tipografias personalizadas para reforçar a identidade da marca.
+
+## Estrutura do projeto
+
+```text
+petal-house/
+│
+├── docs/
+│   └── Petal_House.pdf
+│
+├── html/
+│   ├── index.html
+│   ├── catalogo-flores.html
+│   ├── catalogo-plantas.html
+│   ├── detalhes.html
+│   ├── acessorios.html
+│   ├── login.html
+│   ├── cadastro.html
+│   ├── carrinho.html
+│   ├── checkout.html
+│   ├── sobre.html
+│   └── contato.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── app.js
+│
+├── imagens/
+├── fontes/
+├── audio/
+├── videos/
+│
+└── README.md
+```
+
+## Como executar o projeto
+
+1. Faça o download ou clone este repositório.
+2. Abra a pasta `petal-house` no Visual Studio Code.
+3. Entre na pasta `html`.
 4. Abra o arquivo `index.html` utilizando a extensão Live Server.
+5. Navegue pelo site para conhecer suas funcionalidades.
 
-Também é possível abrir o arquivo `html/index.html` diretamente no navegador, sem utilizar o Live Server.
+Também é possível abrir o arquivo `html/index.html` diretamente no navegador.
 
+## Observações
 
-## Funcionamento offline
+Este projeto é um protótipo front-end desenvolvido exclusivamente para fins acadêmicos.
 
-O site pode ser aberto localmente, sem a necessidade de um servidor ou banco de dados.
+As funcionalidades de login, cadastro, contato e finalização da compra são demonstrativas. Não existe integração com banco de dados, autenticação real de usuários ou processamento de pagamentos.
 
-Entretanto, imagens e outros recursos carregados de serviços externos, como o Unsplash, dependem de conexão com a internet. Para utilizar o projeto completamente offline, esses arquivos precisam estar salvos na pasta local do projeto.
+O carrinho utiliza o LocalStorage do navegador para armazenar temporariamente os produtos selecionados.
 
+## Ferramentas de apoio
 
-## Observações importantes
+- Visual Studio Code: desenvolvimento e edição dos códigos.
+- Live Server: execução e visualização local do site.
+- ChatGPT: apoio na elaboração, compreensão e organização dos códigos.
+- Pinterest: referências visuais e inspiração para a identidade do projeto.
+- Navegador web: testes de navegação e funcionalidades.
 
-Este projeto é um **protótipo front-end desenvolvido para fins acadêmicos**.
+## Autoria
 
-As funcionalidades de login, cadastro e finalização da compra são demonstrativas. O site não possui integração com banco de dados, processamento de pagamentos ou envio de informações para um servidor.
-Os dados armazenados pelo navegador são utilizados apenas para simular o funcionamento das funcionalidades. Portanto, não utilize senhas ou informações pessoais reais.
+Projeto desenvolvido em dupla como atividade acadêmica do curso de Análise e Desenvolvimento de Sistemas.
 
+**Integrantes:**
+- Julia Skraba (github.com/JuliaSkraba)
+- Kamily Florencio (github.com/kamilyflorencio)
 
-## Revisão e organização do código
+As atividades de desenvolvimento, organização dos códigos, estilização e implementação das funcionalidades foram realizadas colaborativamente. A criação do logotipo foi uma contribuição individual de uma das integrantes.
 
-Durante o desenvolvimento, os arquivos foram organizados para facilitar a leitura, a manutenção e a apresentação do projeto.
-
-Foram realizados ajustes como:
-
-- Padronização da indentação dos arquivos HTML.
-- Organização das regras e dos seletores CSS.
-- Reorganização das funções e estruturas do JavaScript.
-- Inclusão de comentários para facilitar a compreensão do código.
-- Verificação da sintaxe dos arquivos JavaScript e CSS.
-- Conferência dos caminhos de imagens, arquivos e links entre as páginas.
-
-**Petal House — Flores que contam histórias.** 🌸
+---
